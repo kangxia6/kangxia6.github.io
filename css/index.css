@@ -35,7 +35,7 @@
 	/*background: rgba(0,0,0,0);*/
 	border-radius:0 0 10px 10px;
 	box-shadow: 1px 0px 0px rgba(0,0,0,0.1) inset,8px 5px 10px darkgray;
-	z-index: 1;
+	z-index: 20;
 	animation: dingbu 1s linear forwards;
 }
 @keyframes dingbu{
@@ -684,4 +684,43 @@
 	left: 0;
 	right: 0;
 	margin: 0 auto;
+}
+
+/*轮播图*/
+
+#banner{
+    list-style:none;
+    position: absolute;
+    padding:0;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    width:800px;
+    height:200px;
+}
+
+
+#banner:hover{
+    cursor: pointer;
+}
+
+
+#banner li{
+    float:left;
+    position: absolute;
+    left: 0px;
+    transition-duration: 0.4s;
+}
+
+#banner div{
+    width:10px;
+    height:10px;
+    border:1px solid rgb(156,156,156);
+    border-radius: 100px;
+    box-shadow: -4px -4px 12px rgb(255, 255, 255),4px 4px 12px rgba(121, 130, 160, 0.747);
+    bottom: -65px;
+    position:absolute;
+    background-color:white;
 }
