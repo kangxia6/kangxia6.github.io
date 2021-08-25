@@ -6,6 +6,8 @@ var gy=document.querySelector('.guanyu');
 var tc=document.querySelector('.tanchuang');
 var end=document.querySelector('.end');
 var bottom=document.querySelector('.bottom');
+var box=document.querySelector('.box');
+var time=document.querySelector('.time');
 var a=1;
 
 //logo的点击事件
@@ -32,7 +34,20 @@ logo.onclick=function(){
 	}
 };
 //end
+//time的点击事件
+time.onclick=function(){
 
+	if(a==0){
+		
+		box.style.display='none';
+		a=1;
+	}else{
+		box.style.display='block';
+		
+		a=0;		
+	}
+};
+//end
 //弹窗的打开,关闭
 gy.onclick=function(){
 	tc.style.display='flex';
