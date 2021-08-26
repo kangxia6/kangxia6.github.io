@@ -200,7 +200,7 @@
 
 /*时间*/
 .time{
-	width: 105px;
+	width: 115px;
 	height: 50px;
 	/*background: #ebecf0;*/
 	box-shadow:-4px -4px 12px rgb(255, 255, 255),
@@ -217,7 +217,7 @@
     color: #185ef0;
 }
 .time>div{
-	width: 100px;
+	width: 110px;
 	height: 25px;
 	position: absolute;
 	top: 15px;
@@ -762,7 +762,8 @@
   border-radius: 5px;
   background: var(--bg);
   box-shadow:inset -2px -2px 6px rgb(255, 255, 255),
-    inset 2px 2px 6px rgba(121, 130, 160, 0.747);
+   		inset 2px 2px 6px rgba(121, 130, 160, 0.747);
+  color: #185ef0;
 }
 
 .tab-content {

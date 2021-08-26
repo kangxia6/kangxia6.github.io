@@ -13,6 +13,7 @@ window.onload = function () {
             cur_img.style.borderRadius = "10px";
             cur_img.style.margin = "-20px";
             cur_img.style.marginLeft = "-50px";
+            cur_img.style.background = "#fff";
             cur_img.style.boxShadow = "-4px -4px 12px rgb(255, 255, 255),4px 4px 12px rgba(121, 130, 160, 0.747)";
             cur_img.style.border = "5px solid var(--bg)";
             cur_li.appendChild(cur_img);
@@ -46,8 +47,9 @@ window.onload = function () {
         let pre_img = document.createElement("img")
         pre_img.src = "img/preImg.png";
         pre_img.style.position = "absolute";
-        pre_img.style.left = 0;
+        pre_img.style.left = "-50px";
         pre_img.style.width = "20px";
+        pre_img.style.top = 0;
         pre_img.style.top = 0;
         pre_img.style.bottom = 0;
         pre_img.style.margin = "auto"
@@ -57,7 +59,7 @@ window.onload = function () {
         let nex_img = document.createElement("img")
         nex_img.src = "img/nexImg.png";
         nex_img.style.position = "absolute";
-        nex_img.style.right = 0;
+        nex_img.style.right = "-50px";
         nex_img.style.width = "20px";
         nex_img.style.top = 0;
         nex_img.style.bottom = 0;
@@ -79,11 +81,11 @@ window.onload = function () {
 
 
         let len = sz.length - 1;
-        sz[len - 2].style.left = "0px";
+        sz[len - 2].style.left = "-80px";
         sz[len - 1].style.zIndex = 10;
         sz[len - 1].style.left = "200px";
         sz[len - 1].style.transform = "scale(1.3)";
-        sz[len].style.left = "400px";
+        sz[len].style.left = "480px";
 
         szdiv[0].style.background = "#e431fc"
 
@@ -114,12 +116,12 @@ window.onload = function () {
                 sz[i].style.transform = "scale(1)"
 
             }
-            sz[len - 2].style.left = "0px";
+            sz[len - 2].style.left = "-80px";
             sz[len - 1].style.zIndex = 10
             sz[len - 1].style.left = "200px";
             sz[len - 1].style.transform = "scale(1.3)"
             sz[len - 1].style.opacity = 1;
-            sz[len].style.left = "400px";
+            sz[len].style.left = "480px";
 
             sync_szdiv()
 
@@ -134,12 +136,12 @@ window.onload = function () {
                 sz[i].style.transform = "scale(1)"
 
             }
-            sz[len - 2].style.left = "0px";
+            sz[len - 2].style.left = "-80px";
             sz[len - 1].style.zIndex = 10
             sz[len - 1].style.left = "200px";
             sz[len - 1].style.transform = "scale(1.3)"
             sz[len - 1].style.opacity = 1;
-            sz[len].style.left = "400px";
+            sz[len].style.left = "480px";
             sync_szdiv()
 
 

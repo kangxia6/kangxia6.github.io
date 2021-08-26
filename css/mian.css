@@ -34,6 +34,10 @@ body {
 	background: var(--bg);
 }
 
+img{
+	outline: none ! important;
+}
+
 #zhu {
 	width: 1200px;
 	/*background: #ebecf0;*/
@@ -165,8 +169,8 @@ section .box .container {
 	align-items: center;
 	width: 260px;
 	height: 300px;
-	top: 70px;
-	left: 1000px;
+	top: 90px;
+	left: 940px;
 	background-color: rgba(255, 255, 255, 0.1);
 	box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
 	border: 1px solid rgba(255, 255, 255, .5);
@@ -195,14 +199,14 @@ section .box .container .dycalendar table {
 }
 
 .dycalendar-month-container .dycalendar-body table tr:nth-child(1) td {
-	background-color: rgba(255, 255, 255, 0.1);
-	border-radius: 7px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
 	font-weight: 400;
 }
 
 .dycalendar-month-container .dycalendar-body table tr td:hover {
 	background-color: #fff;
-	border-radius: 2px;
+	border-radius: 10px;
 	color: #000;
 }
 
@@ -218,7 +222,7 @@ section .box .container .dycalendar table {
 	color: #fff;
 	width: 14px;
 	height: 13px;
-	border-radius: 4px;
+	border-radius: 10px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -312,7 +316,7 @@ section .box .container .dycalendar table {
 .dycalendar-month-container .dycalendar-today-date {
 	background-color: #fff;
 	color: #fff;
-	border-radius: 2px
+	border-radius: 10px
 }
 
 .dycalendar-container.gradient {
