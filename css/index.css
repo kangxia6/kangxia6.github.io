@@ -2,7 +2,7 @@
 #gotop{
     position: fixed;
     display: none;
-    right: 40px;
+    margin-left: 1250px;
     bottom: 40px;
 }
 #gotop img{
@@ -62,7 +62,7 @@
 	height: 50px;
 	position: fixed;
 	top: 5px;
-	left: 180px;
+	margin-left: 20px;
 	z-index: 6666;
 	cursor: pointer;
 	animation: logo1 3s linear;
@@ -102,33 +102,33 @@
 @keyframes logo{
 	0%{
 		transform: scale(1);
-		left: 180px;
+		margin-left: 20px;
 	}
 	20%{transform: scale(0.9);
-		left: 180px;
+		margin-left: 20px;
 	}
 	50%{
 		transform: scale(1);
-		left: 180px;
+		margin-left: 20px;
 	}
 	100%{
-		left: 50px;
+		margin-left: -130px;
 	}
 }
 @keyframes logo2{
 	0%{
 		transform: scale(1);
-		left: 50px;
+		margin-left: -130px;
 	}
 	20%{transform: scale(0.9);
-		left: 50px;
+		margin-left: -130px;
 	}
 	50%{
 		transform: scale(1);
-		left: 50px;
+		margin-left: -130px;
 	}
 	100%{
-		left: 180px;
+		margin-left: 20px;
 	}
 }
 .logo>img{
@@ -585,20 +585,20 @@
 }
 .mk1_a{
 	position: absolute;
-	width: 600px;
+	width: 596px;
 	height: 300px;
 }
 .mk1_b{
 	position: absolute;
-	width: 285px;
+	width: 290px;
 	height: 145px;
-	left: 610px;
+	left: 606px;
 }
 .mk1_c{
 	position: absolute;
-	width: 285px;
+	width: 290px;
 	height: 145px;
-	left: 610px;
+	left: 606px;
 	top: 155px;
 }
 .mk1_d{
@@ -728,7 +728,7 @@
 /*选项卡*/
 .container {
   display: flex;
-  width: 600px;
+  width: 596px;
   height: 300px;
   min-width: 375px;
   overflow: auto;
@@ -756,6 +756,7 @@
   cursor: pointer;
   transition: 0.3s;
   margin-left: 22px;
+  font-weight: bold;
 }
 
 .tab.active {
@@ -763,7 +764,7 @@
   background: var(--bg);
   box-shadow:inset -2px -2px 6px rgb(255, 255, 255),
    		inset 2px 2px 6px rgba(121, 130, 160, 0.747);
-  color: #185ef0;
+  color: #A9A9A9;
 }
 
 .tab-content {
