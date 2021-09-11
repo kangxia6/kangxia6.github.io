@@ -104,7 +104,21 @@ cs.onclick=function(){
 }
 
 
-
+function changebox(n) {
+		var i = 1;
+		while(true){
+		    try{
+			    document.getElementById("a"+i).style.display = 'none';
+			    document.getElementById("b"+i).style.display = 'block';	
+		    }
+		    catch(e){
+			    break;
+		    }
+		    i++;
+		}
+		document.getElementById("a"+n).style.display = 'block';
+		document.getElementById("b"+n).style.display = 'none';
+	}
 
 
 
