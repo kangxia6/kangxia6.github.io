@@ -1,3 +1,4 @@
+//日历
     dycalendar.draw({
      target: '.dycalendar',
      type: 'month',
@@ -7,7 +8,7 @@
      prevnextbutton:"show"
 });
 // vanilla-til.js object
-VanillaTilt.init(document.querySelector(".container"), {
+VanillaTilt.init(document.querySelector(".containerr"),{
 		max: 25,
 		speed: 400,
         glare: true,   // 发光效果

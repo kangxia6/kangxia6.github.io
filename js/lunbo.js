@@ -1,3 +1,4 @@
+//纵向轮播
 var speed=30;
 	pic_box_b.innerHTML = pic_box.innerHTML;
 	function marquee(){
