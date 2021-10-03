@@ -1,0 +1,86 @@
+.banner{
+	height: 320px;
+	position: relative;
+	margin-top: 10px;
+	border-radius: 10px;
+	box-shadow: -2px -2px 6px rgb(255, 255, 255), 4px 4px 12px rgba(121, 130, 160, 0.747);
+}
+.banner>img{
+	width: 1100px;
+	height: 300px;
+	position: absolute;
+	top: 10px;
+	left: 50px;
+	border-radius: 10px;
+	border-radius: 10px;
+	box-shadow: -2px -2px 6px rgb(255, 255, 255), 4px 4px 12px rgba(121, 130, 160, 0.747);
+}
+.nr_dg{
+		position: relative;
+		width: 1200px;
+		/*background: darkblue;*/
+		height: 1200px;
+		margin-top: 10px;
+		border-radius: 10px;
+		box-shadow: -2px -2px 6px rgb(255, 255, 255), 4px 4px 12px rgba(121, 130, 160, 0.747);
+	}
+.mk2{
+	position: relative;
+	height: 1100px;
+	margin-top: 10px;
+	border-radius: 10px;
+	box-shadow: -2px -2px 6px rgb(255, 255, 255), 4px 4px 12px rgba(121, 130, 160, 0.747);
+}
+	.mk2_a{
+		position: absolute;
+		top: 10px;
+		margin-left: 20px;
+	}
+	.mk2_a li {
+		position: relative;
+		width: 280px;
+		height: 350px;
+		border-radius: 15px;
+		list-style: none;
+		float: left;
+		margin: 5px;
+		box-shadow: -2px -2px 6px rgb(255, 255, 255), 4px 4px 12px rgba(121, 130, 160, 0.747);
+	}
+	.jrtj{
+		border: none !important;
+		position: relative;
+		margin-top: 10px;
+		height: 40px;
+		border-radius: 15px;
+		box-shadow: -2px -2px 6px rgb(255, 255, 255), 4px 4px 12px rgba(121, 130, 160, 0.747);
+	}
+	.mk2_a img{
+		width: 240px;
+		left: 0;
+		right: 0;
+		margin: 20px auto;
+		/*height: 150px;*/
+		border-radius: 10px;
+		position: absolute;
+	}
+	.mk2_a div{
+		width: 230px;
+		height: 70px;
+		/*background: aqua;*/
+		position: absolute;
+		bottom: 10px;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.wz_bt{
+		font-size: 18px;
+		font-weight: bolder;
+	}
+	.wz_nr{
+		font-size: 14px;
+	}
+	.wz_jg{
+		color: #cea461;
+	}

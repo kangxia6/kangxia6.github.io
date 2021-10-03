@@ -1,0 +1,40 @@
+	.daohang>ul>li{
+		width: 70px;
+		height: 70px;
+	}
+	.daohang>ul li:active {
+		box-shadow: inset -2px -2px 6px rgb(255, 255, 255), inset 2px 2px 6px rgba(121, 130, 160, 0.747);
+		color: #185ef0;
+	}
+	
+	.daohang>ul>li:nth-child(1) {
+		left: 70px;
+	}
+	
+	.daohang>ul>li:nth-child(2) {
+		left: 170px;
+	}
+	
+	.daohang>ul>li:nth-child(3) {
+		left: 270px;
+	}
+	
+	.daohang>ul>li:nth-child(4) {
+		left: 370px;
+	}
+	
+	.daohang>ul>li:nth-child(5) {
+		left: 470px;
+	}
+	
+	.daohang>ul>li:nth-child(6) {
+		left: 570px;
+	}
+	
+	.daohang>ul>li:nth-child(7) {
+		left: 670px;
+	}
+	
+	.daohang>ul>li:nth-child(8) {
+		left: 770px;
+	}

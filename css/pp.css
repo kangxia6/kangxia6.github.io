@@ -1,0 +1,121 @@
+.pp_banner{
+	height: 300px;
+	margin-top: 10px;
+	border-radius: 10px;
+	position: relative;
+	box-shadow: -2px -2px 6px rgb(255, 255, 255), 4px 4px 12px rgba(121, 130, 160, 0.747);
+}
+.pp_banner>img{
+	width: 1150px;
+	height: 280px;
+	top: 10px;
+	left: 25px;
+	position: absolute;
+	border-radius: 10px;
+	box-shadow: -2px -2px 6px rgb(255, 255, 255), 4px 4px 12px rgba(121, 130, 160, 0.747);
+}
+.bt_pp{
+	height: 50px;
+	margin-top: 10px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 10px;
+	position: relative;
+	box-shadow: -2px -2px 6px rgb(255, 255, 255), 4px 4px 12px rgba(121, 130, 160, 0.747);
+}
+.pp_nr{
+	height: 900px;
+	margin-top: 10px;
+	line-height: 50px;
+	/*text-align: center;*/
+	border-radius: 10px;
+	position: relative;
+	box-shadow: -2px -2px 6px rgb(255, 255, 255), 4px 4px 12px rgba(121, 130, 160, 0.747);
+}
+.pp_nr2{
+	height: 200px;
+	margin-top: 10px;
+	line-height: 50px;
+	/*text-align: center;*/
+	border-radius: 10px;
+	position: relative;
+	box-shadow: -2px -2px 6px rgb(255, 255, 255), 4px 4px 12px rgba(121, 130, 160, 0.747);
+}
+.pp_w1{
+	/*background: saddlebrown;*/
+	height: 1200px;
+	height: 450px;
+	position: relative;
+}
+.pp_w1>img{
+	width: 500px;
+	height: 400px;
+	position: absolute;
+	margin: 20px;
+	border-radius: 10px;
+	box-shadow: -2px -2px 6px rgb(255, 255, 255), 4px 4px 12px rgba(121, 130, 160, 0.747);
+}
+.pp_w1>p{
+	width: 600px;
+	height: 300px;
+	/*background: aqua;*/
+	line-height: 20px;
+	position: absolute;
+	text-indent: 30px;
+	right: 50px;
+	top: 100px;
+}
+.pp_w2{
+	/*background: saddlebrown;*/
+	height: 1200px;
+	height: 450px;
+	position: relative;
+}
+.pp_w2>img{
+	width: 500px;
+	height: 400px;
+	position: absolute;
+	right: 0;
+	margin: 20px;
+	border-radius: 10px;
+	box-shadow: -2px -2px 6px rgb(255, 255, 255), 4px 4px 12px rgba(121, 130, 160, 0.747);
+}	
+.pp_w2>p:nth-child(2){
+	
+	/*background: aqua;*/
+
+	top: 100px;
+}
+.pp_w2>p:nth-child(3){
+	
+	/*background: aqua;*/
+	top: 140px;
+}
+.pp_w2>p:nth-child(4){
+	
+	/*background: aqua;*/
+
+	top: 240px;
+}
+.pp_w2>p{
+	width: 600px;
+	height: 300px;
+	position: absolute;
+	/*text-indent: 30px;*/
+	left: 50px;
+	line-height: 20px;
+}
+.pp_nr2>p{
+	font-weight: bolder;
+	font-size: 30px;
+	position: absolute;
+	line-height: 200px;
+	left: 20px;
+}
+.pp_nr2>span{
+	/*font-weight: bolder;*/
+	font-size: 16px;
+	position: absolute;
+	top: 80px;
+	left: 240px;
+}
