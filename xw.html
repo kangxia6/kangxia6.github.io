@@ -3,10 +3,11 @@
 
 	<head>
 		<meta charset="utf-8" />
-		<title>万一是毕业设计</title>
+		<title>嘟嘟蛋糕坊----🎂</title>
+		<link rel="icon" type="image/x-ico" href="img/html.ico" />
 		<link rel="stylesheet" type="text/css" href="css/mian.css" />
-		<link rel="stylesheet" type="text/css" href="css/xw.css"/>
-		<link rel="stylesheet" type="text/css" href="css/daohang.css"/>
+		<link rel="stylesheet" type="text/css" href="css/xw.css" />
+		<link rel="stylesheet" type="text/css" href="css/daohang.css" />
 	</head>
 
 	<body>
@@ -26,8 +27,8 @@
 			<!--切换样式-->
 			<div class="buttons">
 				<button class='alt'>
-			      <span>♥</span>
-			    </button>
+					<span>♥</span>
+				</button>
 			</div>
 			<!--顶部-->
 			<div class="dingbu">
@@ -58,7 +59,7 @@
 					<ul>
 						<li class="dhg1" onclick="tz('index.html')">首页</li>
 						<li class="dhg1" onclick="tz('dg.html')">蛋糕</li>
-						<li class="dhg1" onclick="tz('jsd.html')">极速达</li>
+						<li class="dhg1" onclick="tz('jsd.html')">蛋糕名录</li>
 						<li class="dhg1" onclick="tz('hd.html')">活动</li>
 						<li class="dhg1" onclick="tz('sc.html')">食材</li>
 						<li class="dhg1" onclick="tz('pp.html')">品牌</li>
@@ -75,27 +76,123 @@
 			<div class="zhu1">
 				<div class="xw_banner"><img src="img/banner1/3.jpg" alt="" /></div>
 				<div class="bt_xw">
-					<p>精选食材</p>
+					<p>新闻</p>
 				</div>
 				<div class="xw_nr">
-					<ul>
-						<li>
-							<img src="" alt="" />
-							<p></p>
+					<ul id="title">
+						<li onclick="tab(0)" class="current">
+							<p href="javascript:">全部</p>
 						</li>
-						<li>
-							<img src="" alt="" />
-							<p></p>
+						<li onclick="tab(1)">
+							<p href="javascript:">公司动态</p>
 						</li>
-						<li>
-							<img src="" alt="" />
-							<p></p>
-						</li>
-						<li>
-							<img src="" alt="" />
-							<p></p>
+						<li onclick="tab(2)">
+							<p href="javascript:">行业新闻</p>
 						</li>
 					</ul>
+					<div id="content">
+						<ul class="xw_lb">
+							<li>
+								<ul class="xw">
+									<li>
+										<div>
+											<img class="img_xw" src="img/home/s_1117c193cc.jpg" />
+										</div>
+										<p class="wx_xw">世界上最着名的10大蛋糕</p>
+										<p class="wx_wz">
+											德国最为出名的就是味道浓郁的黑森林蛋糕，融合了樱桃的酸、奶油的甜、巧克力的苦、樱桃酒的醇香。
+										</p>
+										<a href="#"class="xw_xq">查看详情></a>
+									</li>
+									<li>
+										<div>
+											<img class="img_xw" src="img/home/s_9dc18169f4.jpg" />
+										</div>
+										<p class="wx_xw">最先进的消遣派蛋糕设备</p>
+										<p class="wx_wz">
+											本公司是集科研设计 、生产制造、安装调试及提供工艺配方为一体的实业公司，专门从事曲奇机、威化饼干机、饼干、糕点、巧克力、糖果等食品
+										</p>
+										<a href="#"class="xw_xq">查看详情></a>
+									</li>
+									<li>
+										<div>
+											<img class="img_xw" src="img/home/s_c0dfcbe242.jpg" />
+										</div>
+										<p class="wx_xw">七彩蛋糕制作方法</p>
+										<p class="wx_wz">
+											德国最为出名的就是味道浓郁的黑森林蛋糕，融合了樱桃的酸、奶油的甜、巧克力的苦、樱桃酒的醇香。
+										</p>
+										<a href="#"class="xw_xq">查看详情></a>
+									</li>
+									<li>
+										<div>
+											<img class="img_xw" src="img/home/s_e667a2ba6b.jpg" />
+										</div>
+										<p class="wx_xw">减肥季节最爱脱脂酸奶蛋糕，清凉细滑轻乳酪的口感</p>
+										<p class="wx_wz">
+											德国最为出名的就是味道浓郁的黑森林蛋糕，融合了樱桃的酸、奶油的甜、巧克力的苦、樱桃酒的醇香。
+										</p>
+										<a href="#"class="xw_xq">查看详情></a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<ul class="xw_lb">
+							<li>
+								<ul class="xw">
+									<li>
+										<div>
+											<img class="img_xw" src="img/home/s_1117c193cc.jpg" />
+										</div>
+										<p class="wx_xw">世界上最着名的10大蛋糕</p>
+										<p class="wx_wz">
+											德国最为出名的就是味道浓郁的黑森林蛋糕，融合了樱桃的酸、奶油的甜、巧克力的苦、樱桃酒的醇香。
+										</p>
+										<a href="#"class="xw_xq">查看详情></a>
+									</li>
+									<li>
+										<div>
+											<img class="img_xw" src="img/home/s_9dc18169f4.jpg" />
+										</div>
+										<p class="wx_xw">最先进的消遣派蛋糕设备</p>
+										<p class="wx_wz">
+											本公司是集科研设计 、生产制造、安装调试及提供工艺配方为一体的实业公司，专门从事曲奇机、威化饼干机、饼干、糕点、巧克力、糖果等食品
+										</p>
+										<a href="#"class="xw_xq">查看详情></a>
+									</li>
+
+								</ul>
+
+							</li>
+						</ul>
+						<ul class="xw_lb">
+							<li>
+								<ul class="xw">
+
+									<li>
+										<div>
+											<img class="img_xw" src="img/home/s_c0dfcbe242.jpg" />
+										</div>
+										<p class="wx_xw">七彩蛋糕制作方法</p>
+										<p class="wx_wz">
+											德国最为出名的就是味道浓郁的黑森林蛋糕，融合了樱桃的酸、奶油的甜、巧克力的苦、樱桃酒的醇香。
+										</p>
+										<a href="#"class="xw_xq">查看详情></a>
+									</li>
+									<li>
+										<div>
+											<img class="img_xw" src="img/home/s_e667a2ba6b.jpg" />
+										</div>
+										<p class="wx_xw">减肥季节最爱脱脂酸奶蛋糕，清凉细滑轻乳酪的口感</p>
+										<p class="wx_wz">
+											德国最为出名的就是味道浓郁的黑森林蛋糕，融合了樱桃的酸、奶油的甜、巧克力的苦、樱桃酒的醇香。
+										</p>
+										<a href="#"class="xw_xq">查看详情></a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 			<!--内容end-->
@@ -104,10 +201,10 @@
 			<div class="bottom">
 				<div>
 					<p>
-						关于&nbsp;|&nbsp;py&nbsp：&nbsp康夏&nbsp&nbsp
+						关于&nbsp;|&nbsp;class&nbsp：&nbsp计应1932班&nbsp&nbsp
 					</p>
 					<p>
-						© Copyright 2020 康夏.
+						© Copyright 2021毕设 梁合顺.
 					</p>
 				</div>
 			</div>
@@ -117,4 +214,21 @@
 		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/dycalendar.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/rili.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			var title = document.getElementById('title').getElementsByTagName('li');
+			var content = document.getElementsByClassName('xw_lb');
+
+			function tab(index) {
+				//隐藏content下所有的ul
+				//移除title下所有的li上的class
+				for (var i = 0; i < content.length; i++) {
+					content[i].style.display = 'none';
+					title[i].className = '';
+				}
+				//显示content下需要显示的的ul
+				//给指定的li加上class
+				content[index].style.display = 'block';
+				title[index].className = 'current';
+			}
+		</script>
 </html>

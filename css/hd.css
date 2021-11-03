@@ -1,15 +1,17 @@
-.nr{
+.nr {
 	height: 620px;
 	position: relative;
 	border-radius: 15px;
 	box-shadow: -4px -4px 12px rgb(255, 255, 255), 4px 4px 12px rgba(121, 130, 160, 0.747);
 }
-.nr ul{
+
+.nr ul {
 	position: absolute;
 	left: 170px;
 	top: 30px;
 }
-.nr ul li{
+
+.nr ul li {
 	width: 400px;
 	height: 260px;
 	/*background: salmon;*/
@@ -17,12 +19,14 @@
 	float: left;
 	list-style: none;
 }
-.nr img{
+
+.nr img {
 	width: 400px;
 	height: 260px;
 	border-radius: 10px;
 	box-shadow: -4px -4px 12px rgb(255, 255, 255), 4px 4px 12px rgba(121, 130, 160, 0.747);
 }
+
 /*.nr {
 		top: 0px;
 		width: 1200px;
@@ -47,25 +51,221 @@
 			top: 0px;
 		}
 	}*/
-	.nr1{
+.nr1 {
+	height: 4715px;
+}
+
+.nr2 {
+	height: 9605px;
+}
+
+.nr3 {
+	height: 755px;
+	background: url(../img/hd/3/bg.jpg);
+	background-size: 100% 100%;
+}
+
+/* 活动三-电池 */
+
+
+.nr_z {
 	margin-top: 10px;
-	height: 4980px;
 	position: relative;
 	border-radius: 15px;
 	box-shadow: -4px -4px 12px rgb(255, 255, 255), 4px 4px 12px rgba(121, 130, 160, 0.747);
-	}
-	.nr1 ul{
-		position: absolute;
-	}
-	.nr1 ul li{
-		width: 1200px;
-		/*background: salmon;*/
-		/*margin: 10px;*/
-		/*float: left;*/
-		list-style: none;
-		margin-top: -4px;
-	}
-	.nr1 img{
-		width: 100%;
-	}
+}
 
+.nr_z ul {
+	position: absolute;
+}
+
+.nr_z ul li {
+	width: 1200px;
+	/*background: salmon;*/
+	/*margin: 10px;*/
+	/*float: left;*/
+	list-style: none;
+	margin-top: -4px;
+}
+
+.nr_z img {
+	width: 100%;
+}
+
+
+
+.dc_1 {
+	background-position: 0 0 !important;
+}
+
+.dc_1:hover ,.dc_a0{
+	background-position: 0 -122px !important;
+}
+
+.dc_2 {
+	background-position: 0 -244px !important;
+}
+
+.dc_2:hover ,.dc_a1{
+	background-position: 0 -366px !important;
+}
+
+.dc_3 {
+	background-position: 0 -488px !important;
+}
+
+.dc_3:hover,.dc_a2{
+	background-position: 0 -610px !important;
+}
+
+.dc_4 {
+	background-position: 0 -732px !important;
+}
+
+.dc_4:hover ,.dc_a3{
+	background-position: 0 -854px !important;
+}
+
+.dc_5 {
+	background-position: 0 -976px !important;
+}
+
+.dc_5:hover ,.dc_b0{
+	background-position: 0 -1091px !important;
+}
+
+.dc_6 {
+	background-position: 0 -1206px !important;
+}
+
+.dc_6:hover ,.dc_b1{
+	background-position: 0 -1321px !important;
+}
+
+.dc_7 {
+	background-position: 0 -1436px !important;
+}
+
+.dc_7:hover ,.dc_b2{
+	background-position: 0 -1554px !important;
+}
+
+.dc_8 {
+	background-position: 0 -1672px !important;
+}
+
+.dc_8:hover ,.dc_b3{
+	background-position: 0 -1788px !important;
+}
+
+#title {
+	bottom: 120px;
+	left: 280px;
+	position: absolute;
+	z-index: 6;
+}
+#titlea{
+	top: 10px;
+	right: 60px;
+	position: absolute;
+	z-index: 6;
+	display: none;
+}
+#title>li>p,#titlea>li>p{
+	background: url(https://images.ebeecake.com/img_w/dianchi/dc_btns.png) no-repeat top left;
+}
+#title li {
+	width: 150px !important;
+	height: 110px;
+	/* background: url(../img/2.jpg); */
+	margin: 10px;
+	float: left;
+}
+#titlea li{
+	float: inherit;
+	width: 250px !important;
+	height: 110px;
+	/* background: aqua; */
+	margin: 20px 0;
+	/* background: aliceblue; */
+}
+
+#title li p {
+	display: block;
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+#titlea li p {
+	display: block;
+	width: 100%;
+	height: 100%;
+	float: left;
+	
+}
+#content {
+	display: none;
+	margin-top: 10px;
+}
+#contenta{
+	display: none;
+}
+#content ul, #contenta ul{
+	/* background: url(../img/hd/3/6ebk.png)no-repeat; */
+	position: absolute;
+	top: 50px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 500px !important;
+	/* color: white; */
+	/* background: salmon; */
+	display: none;
+	/* transform: rotate(30deg); */
+}
+/* .dc_xz{
+	transform: rotate(30deg);
+} */
+#content ul:first-child {
+	display: block;
+}
+#contenta ul:first-child {
+	display: block;
+}
+#content img,#contenta img{
+	width: 500px;
+}
+.dc_wz{
+	top: 200px;
+}
+.dc_wzz{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0px auto;
+	width: 300px;
+	font-size: 10px;
+	letter-spacing: 3px;
+	line-height: 30px;
+}
+.dc_wz1{
+	top: 80px;
+}
+.dc_wz3{
+	top: 50px;
+}
+.dc_wz4{
+	top: 100px;
+}
+.dc_wz5{
+	top: 80px;
+}
+.dc_wz6{
+	top: 200px;
+}
+.dc_wz7{
+	top: 200px;
+}
+.dc_wz8{
+	top: 150px;
+}
